@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  color: #259bf6;
+
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+mat-card {
+  width: 100%;
+  margin: 50px;
+}
+mat-card-content {
+  display: flex;
+  justify-content: center;
+  background-color: #f8f8f8;
+}
+.mat-mdc-raised-button:not(:disabled) {
+  color: #0d97e9;
+}
+img {
+  width: 75%;
+  margin: 10px;
+}
+.me {
+  width: 35%;
+}
