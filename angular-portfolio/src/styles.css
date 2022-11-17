@@ -6,9 +6,18 @@ body {
 }
 body {
   color: #259bf6;
-
+  background-color: #0d97e9;
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+h1,
+h2,
+h4 {
+  color: black;
+}
+h3 {
+  color: #000;
+  padding-top: 2px;
 }
 mat-card {
   width: 100%;
@@ -25,7 +34,9 @@ mat-card-content {
 img {
   width: 75%;
   margin: 10px;
+  box-shadow: 5px 5px 10px black;
 }
 .me {
   width: 35%;
+  padding: 0%;
 }
